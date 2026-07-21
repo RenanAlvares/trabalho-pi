@@ -1,0 +1,12 @@
+# Compilados Java
+*.class
+
+# Logs
+*.log
+
+# IDE / SO
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
