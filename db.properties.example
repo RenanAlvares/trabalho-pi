@@ -1,0 +1,5 @@
+# Copie este arquivo para db.properties e ajuste as credenciais do seu MySQL.
+# O arquivo db.properties é ignorado pelo git (não versione suas credenciais).
+db.url=jdbc:mysql://localhost:3306/projeto_interdisciplinar
+db.user=root
+db.password=

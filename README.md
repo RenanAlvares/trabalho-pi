@@ -24,12 +24,15 @@ Conexao/              # driver mysql-connector-j
 ```
 
 ## Como rodar
-Requer **JDK** e um **MySQL** configurado (ajuste as credenciais em `Conexao.java`).
+Requer **JDK** e um **MySQL** configurado. As credenciais ficam em `db.properties` (fora do controle de versão):
 
 ```bash
-# Compilar
+# 1. Configure o banco: copie o modelo e ajuste as credenciais
+cp db.properties.example db.properties
+
+# 2. Compilar
 javac *.java
 
-# Executar (Windows usa ';' no classpath; Linux/Mac usa ':')
+# 3. Executar (Windows usa ';' no classpath; Linux/Mac usa ':')
 java -cp ".;Conexao/mysql-connector-j-9.2.0.jar" Main
 ```

@@ -1,6 +1,9 @@
 # Compilados Java
 *.class
 
+# Credenciais do banco (use db.properties.example como modelo)
+db.properties
+
 # Logs
 *.log
 
